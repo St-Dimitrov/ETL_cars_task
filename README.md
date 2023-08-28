@@ -1,6 +1,6 @@
 # Car Dataset Analysis
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) /// Not really -> scroll to License
 
 A Python program for analyzing a car dataset using pandas and object-oriented programming.
 
@@ -31,9 +31,10 @@ This repository contains a Python program that reads a car dataset from a JSON f
 ## Installation
 
 1. Clone the repository:
-   ```sh
 2. Install the required dependencies:
    ```sh
+   pip install requirements.txt
+   ```
    repository includes a requirements.txt file with the main dependencies but also a whole_requirements.txt created using pip freeze that includes all all packages in the environment including those that are not relevent to the project for testing purposes.
    pip install requirements.txt
 
@@ -42,7 +43,8 @@ Feel free to change the context of the cars.json file as long as it matches the 
 
 1. Run the program:
   ```sh
-  ###python main.py
+  python main.py
+   ```
 
 The program will load the dataset, perform the analyses, and save the results to a CSV file named car_dataset.csv.
 
