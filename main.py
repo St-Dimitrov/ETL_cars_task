@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas
 import logging
 import json
 
@@ -33,20 +33,23 @@ class CarDatasetProcessor:
             self.logger.error('Dataset not loaded')
             return
 
-        df = pd.DataFrame(self.data)
+        df = pandas.DataFrame(self.data)
         unique_cars = df['Name'].nunique()
         avg_hp = df['Horsepower'].mean()
         top_heavy_cars = df.nlargest(5, 'Weight_in_lbs')
-        cars_by_manufacturer = df['Origin'].value_counts()
+        cars_by_manufacturer = df['Name'].apply(lambda name: name.split()[0]).value_counts()  # Extracting manufacturer from car name
         cars_by_year = df['Year'].value_counts()
+        cars_by_origin = df['Origin'].value_counts()
 
         self.logger.info(f'Number of unique cars: {unique_cars}')
         self.logger.info(f'Average horse power of all cars: {avg_hp}')
         self.logger.info('Top 5 heaviest cars:')
         self.logger.info(top_heavy_cars.to_string(index=False))
-        self.logger.info('Number of cars made by each manufacturer:')
+        self.logger.info('Number of car design by manufacturer:')
         self.logger.info(cars_by_manufacturer.to_string())
-        self.logger.info('Number of cars made each year:')
+        self.logger.info('Number of car designs by country:')
+        self.logger.info(cars_by_origin.to_string())
+        self.logger.info('Number of car designs by year:')
         self.logger.info(cars_by_year.to_string())
 
         df.to_csv('car_dataset.csv', index=False)

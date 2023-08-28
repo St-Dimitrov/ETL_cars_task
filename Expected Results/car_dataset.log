@@ -1,20 +1,55 @@
-2023-08-28 18:04:09,708 - INFO - Dataset loaded successfully
-2023-08-28 18:04:09,716 - INFO - Number of unique cars: 311
-2023-08-28 18:04:09,716 - INFO - Average horse power of all cars: 105.0825
-2023-08-28 18:04:09,716 - INFO - Top 5 heaviest cars:
-2023-08-28 18:04:09,724 - INFO -                     Name  Miles_per_Gallon  Cylinders  Displacement  Horsepower  Weight_in_lbs  Acceleration       Year Origin
+2023-08-28 19:21:15,580 - INFO - Dataset loaded successfully
+2023-08-28 19:21:15,588 - INFO - Number of unique cars: 311
+2023-08-28 19:21:15,588 - INFO - Average horse power of all cars: 105.0825
+2023-08-28 19:21:15,588 - INFO - Top 5 heaviest cars:
+2023-08-28 19:21:15,588 - INFO -                     Name  Miles_per_Gallon  Cylinders  Displacement  Horsepower  Weight_in_lbs  Acceleration       Year Origin
      pontiac safari (sw)              13.0          8         400.0       175.0           5140          12.0 1971-01-01    USA
         chevrolet impala              11.0          8         400.0       150.0           4997          14.0 1973-01-01    USA
        dodge monaco (sw)              12.0          8         383.0       180.0           4955          11.5 1971-01-01    USA
 mercury marquis brougham              12.0          8         429.0       198.0           4952          11.5 1973-01-01    USA
 buick electra 225 custom              12.0          8         455.0       225.0           4951          11.0 1973-01-01    USA
-2023-08-28 18:04:09,736 - INFO - Number of cars made by each manufacturer:
-2023-08-28 18:04:09,736 - INFO - Origin
-USA       254
-Japan      79
-Europe     73
-2023-08-28 18:04:09,736 - INFO - Number of cars made each year:
-2023-08-28 18:04:09,736 - INFO - Year
+2023-08-28 19:21:15,606 - INFO - Number of cars made by each manufacturer:
+2023-08-28 19:21:15,606 - INFO - Name
+ford             53
+chevrolet        44
+plymouth         32
+amc              29
+dodge            28
+toyota           25
+datsun           23
+buick            17
+pontiac          16
+volkswagen       16
+honda            13
+mercury          11
+mazda            10
+oldsmobile       10
+fiat              8
+peugeot           8
+audi              7
+chrysler          6
+volvo             6
+vw                6
+saab              5
+renault           5
+subaru            4
+opel              4
+chevy             3
+cadillac          2
+mercedes-benz     2
+maxda             2
+bmw               2
+citroen           1
+chevroelt         1
+capri             1
+hi                1
+toyouta           1
+mercedes          1
+vokswagen         1
+triumph           1
+nissan            1
+2023-08-28 19:21:15,606 - INFO - Number of cars designs each year:
+2023-08-28 19:21:15,606 - INFO - Year
 1982-01-01    61
 1973-01-01    40
 1978-01-01    36
@@ -27,4 +62,74 @@ Europe     73
 1972-01-01    28
 1977-01-01    28
 1974-01-01    27
-2023-08-28 18:04:09,744 - INFO - Dataset saved to car_dataset.csv
+2023-08-28 19:21:15,614 - INFO - Dataset saved to car_dataset.csv
+2023-08-28 19:26:17,926 - INFO - Dataset loaded successfully
+2023-08-28 19:26:17,926 - INFO - Number of unique cars: 311
+2023-08-28 19:26:17,926 - INFO - Average horse power of all cars: 105.0825
+2023-08-28 19:26:17,926 - INFO - Top 5 heaviest cars:
+2023-08-28 19:26:17,934 - INFO -                     Name  Miles_per_Gallon  Cylinders  Displacement  Horsepower  Weight_in_lbs  Acceleration       Year Origin
+     pontiac safari (sw)              13.0          8         400.0       175.0           5140          12.0 1971-01-01    USA
+        chevrolet impala              11.0          8         400.0       150.0           4997          14.0 1973-01-01    USA
+       dodge monaco (sw)              12.0          8         383.0       180.0           4955          11.5 1971-01-01    USA
+mercury marquis brougham              12.0          8         429.0       198.0           4952          11.5 1973-01-01    USA
+buick electra 225 custom              12.0          8         455.0       225.0           4951          11.0 1973-01-01    USA
+2023-08-28 19:26:17,934 - INFO - Number of car design by manufacturer:
+2023-08-28 19:26:17,934 - INFO - Name
+ford             53
+chevrolet        44
+plymouth         32
+amc              29
+dodge            28
+toyota           25
+datsun           23
+buick            17
+pontiac          16
+volkswagen       16
+honda            13
+mercury          11
+mazda            10
+oldsmobile       10
+fiat              8
+peugeot           8
+audi              7
+chrysler          6
+volvo             6
+vw                6
+saab              5
+renault           5
+subaru            4
+opel              4
+chevy             3
+cadillac          2
+mercedes-benz     2
+maxda             2
+bmw               2
+citroen           1
+chevroelt         1
+capri             1
+hi                1
+toyouta           1
+mercedes          1
+vokswagen         1
+triumph           1
+nissan            1
+2023-08-28 19:26:17,934 - INFO - Number of car designs by country:
+2023-08-28 19:26:17,934 - INFO - Origin
+USA       254
+Japan      79
+Europe     73
+2023-08-28 19:26:17,934 - INFO - Number of car designs by year:
+2023-08-28 19:26:17,934 - INFO - Year
+1982-01-01    61
+1973-01-01    40
+1978-01-01    36
+1970-01-01    35
+1976-01-01    34
+1975-01-01    30
+1971-01-01    29
+1979-01-01    29
+1980-01-01    29
+1972-01-01    28
+1977-01-01    28
+1974-01-01    27
+2023-08-28 19:26:17,942 - INFO - Dataset saved to car_dataset.csv
