@@ -2,6 +2,7 @@ import pandas
 import logging
 import json
 
+
 class CarDatasetProcessor:
     def __init__(self, json_file):
         self.json_file = json_file
@@ -35,6 +36,8 @@ class CarDatasetProcessor:
 
         df = pandas.DataFrame(self.data)
         unique_cars = df['Name'].nunique()
+        #next row is just for unit testing
+        self.unique_cars = df['Name'].nunique()
         avg_hp = df['Horsepower'].mean()
         top_heavy_cars = df.nlargest(5, 'Weight_in_lbs')
         cars_by_manufacturer = df['Name'].apply(lambda name: name.split()[0]).value_counts()  # Extracting manufacturer from car name
