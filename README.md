@@ -27,6 +27,7 @@ This repository contains a Python program that reads a car dataset from a JSON f
 - Display the number of cars made by each manufacturer.
 - Show the number of cars made each year.
 - Save the processed dataset to a CSV file.
+- Unit test that checks if JSON file is being loaded properly.
 
 ## Installation
 
@@ -35,7 +36,7 @@ This repository contains a Python program that reads a car dataset from a JSON f
    ```sh
    pip install requirements.txt
    ```
-   repository includes a requirements.txt file with the main dependencies but also a whole_requirements.txt created using pip freeze that includes all all packages in the environment including those that are not relevent to the project for testing purposes.
+   repository includes a requirements.txt file with the main dependencies but also a whole_requirements.txt created using pip freeze that includes all all packages in the environment including those that are not relevant to the project for testing purposes.
    pip install requirements.txt
 
 ## Usage
