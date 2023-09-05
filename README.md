@@ -37,7 +37,6 @@ This repository contains a Python program that reads a car dataset from a JSON f
    pip install requirements.txt
    ```
    repository includes a requirements.txt file with the main dependencies but also a whole_requirements.txt created using pip freeze that includes all all packages in the environment including those that are not relevant to the project for testing purposes.
-   pip install requirements.txt
 
 ## Usage
 Feel free to change the context of the cars.json file as long as it matches the same structure
