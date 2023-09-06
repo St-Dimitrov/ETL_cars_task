@@ -3,9 +3,13 @@ from pyspark.sql.functions import avg, desc
 
 # COMMAND ----------
 
+cars_account_key = dbutils.secrets.get(scope = 'cars-scope', key = 'cars-account-key')
+
+# COMMAND ----------
+
 spark.conf.set(
     "fs.azure.account.key.carsdl.dfs.core.windows.net", 
-    "5HGgbDnvpI3SkJoCHTg1qS8IjG9vQ0h050qiATKp46sCynCeADf+PgELzpEKNjZlnKJDxVpb5Qmp+AStf6wNbw=="
+    cars_account_key
 )
 
 # COMMAND ----------
